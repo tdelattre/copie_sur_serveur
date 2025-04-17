@@ -5,4 +5,6 @@ Script permettant la copie de fichiers écoacoustiques avec signalement sonore d
 copie de source (carte sd) vers destination (nas)
 
 > ; ( speaker-test -t sine -f 1000 )& pid=$! ; sleep 1s ; kill -9 $pid
+
+
 script permettant d'émettre un son d'une seconde à la fin de la copie
