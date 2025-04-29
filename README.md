@@ -8,3 +8,7 @@ copie de source (carte sd) vers destination (nas)
 
 
 script permettant d'émettre un son d'une seconde à la fin de la copie
+
+
+
+nocache rsync --recursive --info=progress2 --bwlimit=50000 -ae 'ssh -p 51022' /media/tdelattre/X10\ Pro/S4/ nom@adresse.du.serveur:DATA_2025/bats/S4/
